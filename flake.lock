@@ -1,0 +1,94 @@
+{
+  "nodes": {
+    "ags": {
+      "inputs": {
+        "astal": [
+          "astal-niri"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1775689345,
+        "narHash": "sha256-tM3s7CX+tgxlYW0Sk3nzVThg2MHn08foIuMxABupxIs=",
+        "owner": "Aylur",
+        "repo": "ags",
+        "rev": "bbee2f18939f1ec7ff720e717cf305e73635628f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Aylur",
+        "repo": "ags",
+        "type": "github"
+      }
+    },
+    "astal": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1794133227,
+        "narHash": "sha256-VBloruW48HKHRfyZDZHbreC3/tjtf70v4oqpsq+yO/w=",
+        "owner": "Aylur",
+        "repo": "astal",
+        "rev": "b7aaf4ce69ebb3c5b1818d524e04b23bc755a97d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Aylur",
+        "repo": "astal",
+        "type": "github"
+      }
+    },
+    "astal-niri": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1782638537,
+        "narHash": "sha256-dYmRQmozcNyvjZg2R+yIK4VL/KVqn2GCT0s7bfjtDjg=",
+        "owner": "sameoldlab",
+        "repo": "astal",
+        "rev": "a564eaf5ca4221969b6ae1eeb74dda4f27a868c0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sameoldlab",
+        "ref": "feat/niri",
+        "repo": "astal",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1795234589,
+        "narHash": "sha256-f/VVvxf5RsQgWVhUtefoca5ktVg0DA2bnkMOcmSnozo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2786a2a72088ecf32aea5b3ec52099e6a7cff78f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ags": "ags",
+        "astal": "astal",
+        "astal-niri": "astal-niri",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
